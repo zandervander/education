@@ -42,13 +42,13 @@ promoPopupClose.addEventListener('click', e => {
 const appleLink = document.getElementById('apple_link');
 appleLink.addEventListener('click', e => {
     ga('send', 'event', 'link promo', 'app');
-    window.open('https://apps.apple.com/us/app/fluid-simulation/id1443124993');
+    window.open('https://zandervander.net/404');
 });
 
 const googleLink = document.getElementById('google_link');
 googleLink.addEventListener('click', e => {
     ga('send', 'event', 'link promo', 'app');
-    window.open('https://play.google.com/store/apps/details?id=games.paveldogreat.fluidsimfree');
+    window.open('https://zandervander.net/404');
 });
 
 // Simulation section
@@ -239,7 +239,7 @@ function startGUI () {
     let github = gui.add({ fun : () => {
         window.open('https://github.com/PavelDoGreat/WebGL-Fluid-Simulation');
         ga('send', 'event', 'link button', 'github');
-    } }, 'fun').name('Github');
+    } }, 'fun').name('WEBGL Github');
     github.__li.className = 'cr function bigFont';
     github.__li.style.borderLeft = '3px solid #8C8C8C';
     let githubIcon = document.createElement('span');
